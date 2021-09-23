@@ -1,0 +1,10 @@
+
+
+
+
+
+
+for fronend
+* Navbar with burger icon
+* burger icon onclick opens drawer - drawer component is inside of navbar and is managed by state which is in home.js
+
