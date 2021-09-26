@@ -10,7 +10,7 @@ function Navbar(props) {
         <AddClass  toggleJoin={props.toggleJoin} />
         <div>
             <nav className="navbar navbar-expand-lg navbar-light bg-light">
-            <h1>this is a test</h1>
+          
             <div className="container-fluid">
                 <a className="navbar-brand" onClick={props.toggleDrawerOnClick} href="/" ><i className="fas fa-bars mx-3 fs-3"></i></a>
                 
