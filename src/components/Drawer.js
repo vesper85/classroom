@@ -31,9 +31,9 @@ function Drawer(props) {
                 {items.map((ele)=>{
                     return (
                         <>
-                        <li className=" highlight nav-item  lh-lg p-0 px-2 ">
+                        <li  className=" highlight nav-item  lh-lg p-0 px-2 ">
                             <div className="d-flex align-items-center">
-                            <i class={`fas ${ele.icon} mx-4`}></i>
+                            <i className={`fas ${ele.icon} mx-4`}></i>
                             <a className=" nav-link text-dark fs-6  w-100 "  href={ele.link}>{ele.name}</a>
                             </div>
                         </li>

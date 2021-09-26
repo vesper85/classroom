@@ -31,7 +31,7 @@ const AddClass = (props)=> {
                         {/* Class code input */}
                         <div className="form-floating my-1">
                             <textarea className="form-control" placeholder="Class code" id="floatingTextarea"></textarea>
-                            <label for="floatingTextarea">Class code</label>
+                            <label htmlFor="floatingTextarea">Class code</label>
                         </div>                  
                 </div>
                 </div>

@@ -1,18 +1,25 @@
 const mongoose = require('mongoose');
 
 const courses = new mongoose.Schema({
-    name: {
+    classcode:{
+        type:String
+    },
+    title: {
         type:String
     },
     author:{
-        type:mongoose.Schema.Types.ObjectId
+        type:String
+        //type:mongoose.Schema.Types.ObjectId
     },
     date:{
         type:Date,
         default:Date.now
     },
     users:{
-        type:Array,
+        type:Array
+    },
+    assignments:{
+        type:Array
     }
     
     //img:{

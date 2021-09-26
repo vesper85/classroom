@@ -18,7 +18,6 @@ function Home() {
         console.log('addbutton clicked');
         toggleJoin === false ? settoggleJoin(true) :settoggleJoin(false)
     }
-
     return (
         <div>
             {/*<AddClass/>*/}
