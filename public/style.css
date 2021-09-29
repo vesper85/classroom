@@ -1,0 +1,36 @@
+body {
+    background-color:white;
+  }
+  
+  .centered {
+      padding-top: 250px;
+      text-align: center;
+  }
+  
+  .lead-text {
+    text-align: center;
+    font-size: 2.5rem;
+    color: #fff;
+    /* background-color:white */
+  }
+  .jumbotron {
+    background-color: green;
+  }
+.btn{
+    margin: 5px;
+}
+.lead{
+    color: white;
+}
+.front-btn{
+  
+ position: relative;
+ top: 520px;
+
+
+  
+}
+
+.Front_button_class{
+  text-align: center;;
+}
