@@ -6,7 +6,7 @@ function Login(){
 
     e.preventDefault();
     fetch("http://localhost:3000/login")
-    const 
+    // pending here 
 
   
   }
@@ -21,7 +21,7 @@ function Login(){
         <div className="card-body">
 
            {/* Makes POST request to /login route  */}
-          <htmlhtmlForm action="/login" method="POST" >
+          <htmlhtmlForm action="/login" method="POST" onSubmit = {this.handleSubmit} >
             <div className="htmlForm-group">
               <label htmlFor="email">Email</label>
               <input type="email" className="htmlhtmlForm-control" name="username" />

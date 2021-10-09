@@ -2,6 +2,12 @@ import React from "react";
 
 function Register() {
 
+  const handleSubmit = (e)=>{
+    e.preventDefault();
+    fetch("http://localhost:3000/register")
+    // pending here 
+  }
+
     return (
     < div className="container mt-5" >
     <h1>Register</h1>
@@ -11,7 +17,7 @@ function Register() {
         <div className="card">
           <div className="card-body">
    {/* Makes POST request to /register route  */}
-            <htmlForm action="/register" method="POST">
+            <htmlForm action="/register" method="POST"  onSubmit = {this.handleSubmit}>
               <div className="htmlForm-group">
                 <label htmlFor="email">Email</label>
                 <input type="email" className="htmlForm-control" name="username" />
